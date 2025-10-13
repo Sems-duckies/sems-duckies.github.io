@@ -4,11 +4,13 @@ pic_url: "https://lh3.googleusercontent.com/pw/AP1GczP5tIEteZLiAdo8dHi3Y5Ho3zps4
 umap_url: "https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Chewduckka#16/50.0641/19.9367"
 from: "@r3f1Zul"
 status: "Gift"
-description: "Placeholder"
+description: "A uniquely crafted rubber duck inspired by the legendary Wookiee warrior Chewbacca.With shaggy fur, a bandolier across its chest, and a fierce yet lovable 
+expression, this duck brings a touch of the galaxy far, far away to any collection."
 city: "Krakow, Poland"
 date: 2025-10-11
+no: 1
 ---
-# {{ page.meta.title }}
+# Duck {{ page.meta.no }}: {{ page.meta.title }}
 
 <img src="{{ page.meta.pic_url }}" alt="{{ page.meta.title }}" width="600">
 **Place:** {{ page.meta.city }}

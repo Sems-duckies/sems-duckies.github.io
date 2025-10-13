@@ -1,11 +1,11 @@
-site_name: "Ingress Banner Passphrases"
-site_desription: "xxx"
-site_author: "IBP Team"
-site_url: "https://ingress-banner-passphrases.github.io"
+site_name: "Sem's Ducks"
+site_desription: "The World of Sem and his ducks"
+site_author: "SD Team"
+site_url: "https://sems-duckies.github.io"
 
-repo_url: "https://github.com/Ingress-Banner-Passphrases/Ingress_Banner_Passphrases"
+repo_url: "https://github.com/Sems-duckies/sems-duckies.github.io"
 
-repo_name: "Ingress-Banner-Passphrases"
+repo_name: "sems-duckies.github.io"
 
 theme:
   name: material
@@ -71,8 +71,6 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/telegram
-      link: https://google.com
-    - icon: fontawesome/brands/telegram
-      link: https://google.com
+      link: https://t.me/semsduckies
 
 copyright: "This is a fan site that is not affiliated whith Niantic Inc. Ingress is a registered trademark of Niantic Inc."

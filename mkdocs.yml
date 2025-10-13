@@ -13,14 +13,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: green
       accent: teal
       toogle:
         icon: material/weather-sunny
         name: Enable light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: green
       accent: teal
       toogle:
         icon: material/weather-night
@@ -40,7 +40,7 @@ docs_dir: doc
 
 nav:
   - Home: index.md
-  - Banner: banner/index.md
+  - Banner: ducks/index.md
   - About: about.md
 
 markdown_extensions:

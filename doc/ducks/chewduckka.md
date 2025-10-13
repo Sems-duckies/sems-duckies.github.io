@@ -10,7 +10,7 @@ date: 2025-10-11
 ---
 # {{ page.meta.title }}
 
-<img src="{{ pic_url }}" alt="{{ page.meta.title }}" width="600">
+<img src="{{ page.meta.pic_url }}" alt="{{ page.meta.title }}" width="600">
 **Place:** {{ page.meta.city }}
 
 **Status:** {{ page.meta.status }}
@@ -19,6 +19,6 @@ date: 2025-10-11
 
 ## Description
 
-{{ page.meta.description
+{{ page.meta.description }}
 
 **umap:** [Link]({{ page.meta.umap_url }})

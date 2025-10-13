@@ -1,7 +1,7 @@
 ---
 title: "Chewduckka"
-pic_url: https://lh3.googleusercontent.com/pw/AP1GczP5tIEteZLiAdo8dHi3Y5Ho3zps4C4Cf9_nty0iOTEyxdAIkLa2iwpqoo39KXesMYRdhp3bxILLcIm3_Bs9oPxpi_zP0e4A1Jxl6kcsij2BD1DMljrJDPtdFftbSQUlo0k596X-q8nQ2TvpZk7J2izt7A=w1081-h1441-s-no-gm
-umap_url: https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Chewduckka#16/50.0641/19.9367
+pic_url: "https://lh3.googleusercontent.com/pw/AP1GczP5tIEteZLiAdo8dHi3Y5Ho3zps4C4Cf9_nty0iOTEyxdAIkLa2iwpqoo39KXesMYRdhp3bxILLcIm3_Bs9oPxpi_zP0e4A1Jxl6kcsij2BD1DMljrJDPtdFftbSQUlo0k596X-q8nQ2TvpZk7J2izt7A=w1081-h1441-s-no-gm"
+umap_url: "https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Chewduckka#16/50.0641/19.9367"
 from: "@r3f1Zul"
 status: "Gift"
 description: "Placeholder"

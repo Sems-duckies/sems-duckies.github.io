@@ -40,7 +40,7 @@ docs_dir: doc
 
 nav:
   - Home: index.md
-  - Banner: ducks/index.md
+  - Ducks: ducks/index.md
   - About: about.md
 
 markdown_extensions:

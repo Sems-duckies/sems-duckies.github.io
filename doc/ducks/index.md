@@ -30,6 +30,7 @@ date: 2025-10-13
 ## L
 
 ## M
+* [Misstress Quack](ducks/misstress-quack)
 
 ## N
 

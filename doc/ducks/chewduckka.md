@@ -8,9 +8,9 @@ description: "A uniquely crafted rubber duck inspired by the legendary Wookiee w
 expression, this duck brings a touch of the galaxy far, far away to any collection."
 city: "Krakow, Poland"
 date: 2025-10-11
-no: 1
+number: 1
 ---
-# Duck {{ page.meta.no }}: {{ page.meta.title }}
+# Duck {{ page.meta.number }}: {{ page.meta.title }}
 
 <img src="{{ page.meta.pic_url }}" alt="{{ page.meta.title }}" width="600">
 **Place:** {{ page.meta.city }}

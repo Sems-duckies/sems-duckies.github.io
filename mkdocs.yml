@@ -1,0 +1,78 @@
+site_name: "Ingress Banner Passphrases"
+site_desription: "xxx"
+site_author: "IBP Team"
+site_url: "https://ingress-banner-passphrases.github.io"
+
+repo_url: "https://github.com/Ingress-Banner-Passphrases/Ingress_Banner_Passphrases"
+
+repo_name: "Ingress-Banner-Passphrases"
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toogle:
+        icon: material/weather-sunny
+        name: Enable light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toogle:
+        icon: material/weather-night
+        name: Enable dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - conten.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+docs_dir: doc
+
+nav:
+  - Home: index.md
+  - Banner: banner/index.md
+  - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - def_list
+  - footnotes
+  - attr_list
+  - abbr
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - macros
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://google.com
+    - icon: fontawesome/brands/telegram
+      link: https://google.com
+
+copyright: "This is a fan site that is not affiliated whith Niantic Inc. Ingress is a registered trademark of Niantic Inc."

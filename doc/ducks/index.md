@@ -1,11 +1,12 @@
 ---
 title:
-date: 2025-10-13
+date: 2025-10-14
 ---
 
 # Ducks
 
 ## A
+  * [Andy Duckhole](andy-duckhole)
 
 ## B
   

@@ -1,0 +1,203 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                   19.938,
+                   50.062
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Chewduckka",
+               "number": "1",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczP5tIEteZLiAdo8dHi3Y5Ho3zps4C4Cf9_nty0iOTEyxdAIkLa2iwpqoo39KXesMYRdhp3bxILLcIm3_Bs9oPxpi_zP0e4A1Jxl6kcsij2BD1DMljrJDPtdFftbSQUlo0k596X-q8nQ2TvpZk7J2izt7A=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/FFWbamZHuybo6xTM9",
+               "swag": "https://www.ingress-swag.com/biocards/chewduckka",
+               "description": "A uniquely crafted rubber duck inspired by the legendary Wookiee warrior Chewbacca.With shaggy fur, a bandolier across its chest, and a fierce yet lovable expression, this duck brings a touch of the galaxy far, far away to any collection.",
+               "from": "@r3f1Zul",
+               "status": "Gift",
+               "place": "Krakow, Poland"
+           },
+           "id": "1"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                   19.936,
+                   50.061
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Mistress Quack",
+               "number": "2",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczMSxMg8dKcTJwldcZBidwtA59UVffV1BaphqOrnAEZXz175Sd5WDjWEyi4Fn2_lWfpmEJVpObeXGUmw1fGIq12UDUdD51PrMMe1IQ5RNaLbBKNyU31pKCbHETPTTYNSrFsy-KtSs1q6az2C1UV_nUGUxg=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/viuhCdakvJDVJo4G9",
+               "swag": "https://www.ingress-swag.com/biocards/mistress-quack",
+               "description": "Meet Mistress Quack – a dominantly delightful rubber duck who knows exactly who's in charge.Clad in faux leather, with a tiny ballgag beak and a confident stare, she brings a cheeky touch of BDSM flair to any collection. Whether in the tub or on display, she commands attention… and obedience.",
+               "from": "@Prinzessin33",
+               "status": "Gift",
+               "place": "Krakow, Poland"
+           },
+           "id": "2"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                   17.2125133,
+                   48.17
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Andy Duckhole",
+               "number": "3",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczNEioQvy_RN3k-xTf8ue4IlZkm8OKblTbpllQz24-yhOhAETVnxXEjIDGrayDOHk6l-5I4xCJ9pUi2uz1nFL9eg6xHefd-2gfsWTsHbYEawAmsi4TGrCnwziiqqPk2PBUMWrXC8344PnANqAbLUxAW01g=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/vP5NC3pf7F4LyAWq5",
+               "swag": "https://www.ingress-swag.com/biocards/andy-duckhol",
+               "description": "Say hello to Andy Duckhol – the flamboyant feathered icon of the Pop Art world.Bold, bright, and ready for the spotlight, this duck channels the spirit of Andy Warhol with vibrant colors and unmistakable attitude.Whether in the bath or on the shelf, Andy Duckhol proves that every duck deserves their 15 minutes of fame.",
+               "from": "@altnaharra",
+               "status": "Trade",
+               "place": "Bratislava Airport"
+           },
+           "id": "3"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                   18.00762,
+                   53.1235
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Captain Quackbeard",
+               "number": "4",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczOYOEh6hNDyLqZkumTvpWtda_ZVsFSmqXpdfVTj7VmGYBW2e_6s-4gn2DMQLToPC6N6JZH4uI22MCzJoPsZx8GJSa4QNochj94tZbyazJ_xcEft_S2clB-pR3o6Er-7ZhFdDNACMrpbpKa9qiAM_kCKpg=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/qyQJJZjMGek7wKHc6",
+               "swag": "https://www.ingress-swag.com/biocards/captain-quackbeard",
+               "description": "A small blue pirate duck, proudly sailing from the Muzeum Mydła i Historii Brudu in Bydgoszcz.With its tiny tricorn hat, eyepatch, and swashbuckling charm, this fearless bathmate is ready to plunder soap bars and command the seven sinks.",
+               "from": "@Yeahfree",
+               "status": "Mule/bought",
+               "place": "Bydgoszcz, Poland"
+           },
+           "id": "4"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                   -3.19648,
+                   55.95206
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Ducktor Plague",
+               "number": "5",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczOnMsr2SFdYigbe2h990dEssJ9Y-54Dv4XY1hEA6uOmC-A2-Op6zappgScFZVtvcKFTVM1O5gLgVfDCjH9vsiumHT5qZKFDjX74ov3TLFNpY6Kyof84mAAGTmp2vvEiGL6PxerwCpHt5eFXL8S8mkK-bw=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/4LSj1dQfqb4oiuJt8",
+               "swag": "https://www.ingress-swag.com/biocards/ducktor-plague",
+               "description": "Meet Ducktor Plague – the beaked guardian of bath-time gloom. Dressed in a classic black plague doctor cloak with wide-brimmed hat and haunting mask, this eerie little duck brings medieval mystery to your rubber duck collection. A true relic of dark elegance… with a squeak.",
+               "from": "@Yeahfree",
+               "status": "Mule/bought",
+               "place": "Edinburgh, UK"
+           },
+           "id": "5"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                19.939,
+                50.061
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Quacków",
+               "number": "6",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczMTNcIfrcILgEZtqhM-5_-TnNtl12DW_F6OfasD-PyC5Ht9indptdVAxqbjqywIvobXzlphF0IXIb9UfZvdHVhBEIayC5HyhLcIxyep8Fcm7XaB7jw2lqbA6Dekxr-3DZ-3e625BX81MDlcWUct2K3qxg=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/Z6G389dnMg8YNd967",
+               "swag": "https://www.ingress-swag.com/biocards/quackow",
+               "description": "Say hello to Quacków – a proud little duck straight from Poland, wearing the name Kraków across its chest and a delicious pierogi as its badge of honor. This charming souvenir celebrates the heart of Polish cuisine and culture, one dumpling at a time. A true Kraków classic… with a squeak.",
+               "from": "@Prinzessin33 @r3f1Zul",
+               "status": "Gift",
+               "place": "Krakow, Poland"
+           },
+           "id": "6"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                8.682,
+                50.11
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Devilquacker",
+               "number": "7",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczOAij4t2ExkqbyeF4QP29fc3pON8JNc7LJp_wQnLzCwC22jQqIZCFqCWgmbsp9rxYYW0jtP4k0pCdPzTqVY9Pz8PPUOrNox39GYs7am3HmmgRDVb4ojRjYmiTCzwhx1tda0_b6Ox50xTzVe8F8wHw5uwA=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/67ikFastJurV8kW29",
+               "swag": "https://www.ingress-swag.com/biocards/devilquacker",
+               "description": "This is Devilquacker – the fiery little devil of the labor front.With blazing red feathers, bold black horns, and the proud ver.di logo on its chest, this fearless duck stands for workers’ rights with every squeak. Originally a promotional mascot, its exact place of origin remains a mystery… but its rebellious spirit is unmistakable.",
+               "from": "@nightdir",
+               "status": "Gift",
+               "place": "Frankfurt, Germany"
+           },
+           "id": "7"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                11.3668037,
+                47.3004546
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Dutch Voyager",
+               "number": "8",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczPW8TqT_cjxt6N1YhkGi1gMSx5mamQy2KM27yEWQ9rIpVUG-eWdVL-KkIea5HX4U5pjyV27vOfakKgzodOeRMgzhVNSmSZ3m55FTpfQzZVnYgLFOAtet-i-UeCT6PIrnwkLKe2ZFqf4mVX3OPUHyRwqPg=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/QzwrHydAUg3HD6m18",
+               "swag": "https://www.ingress-swag.com/biocards/dutch-voyager",
+               "description": "Meet Dutch Voyager – a globe-trotting duck with Dutch roots and a Slovakian stamp in its passport. Sporting the colors of adventure and a proud “U” on its chest, this waddling wanderer was picked up at Bratislava Airport and is ready to explore the world – one squeak at a time.",
+               "from": "@altnaharra",
+               "status": "Trade",
+               "place": "Innsbruck, Austria"
+           },
+           "id": "8"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                7.85222,
+                47.9959
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Fuelie",
+               "number": "9",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczMi0u0nxBqG0QLzwvfifwzp7YUYj-OZf93wmouv7hxuYDUVV2xVxfenLK5ZUKzIRVZsVXAvbgAQ2jIYI56cYLb6qH6L3Agdcd63Y4vXpED3EdcVJTOakdDWI9w6pUYCHUw6FO9OCjrNQqkRo-8kY6-jmQ=w1081-h1441-s-no-gm",
+               "url": "https://photos.app.goo.gl/oL6naDC2woCUizY26",
+               "swag": "https://www.ingress-swag.com/biocards/fuelie",
+               "description": "Say hello to Fuelie – the bright blue duck born to pump up your bath-time energy. With its signature ARAL branding and vibrant orange beak, this promotional duck made its way from Freiburg to your collection, leaving a trail of bubbles and high-octane charm.",
+               "from": " @derFreiburger",
+               "status": "Trade",
+               "place": "Freiburg, Germany"
+           },
+           "id": "9"
+       }
+   ]
+}

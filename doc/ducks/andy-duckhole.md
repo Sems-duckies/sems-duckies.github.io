@@ -1,6 +1,6 @@
 ---
 title: "Andy Duckhole"
-pic_url: "https://lh3.googleusercontent.com/pw/AP1GczNEioQvy_RN3k-xTf8ue4IlZkm8OKblTbpllQz24-yhOhAETVnxXEjIDGrayDOHk6l-5I4xCJ9pUi2uz1nFL9eg6xHefd-2gfsWTsHbYEawAmsi4TGrCnwziiqqPk2PBUMWrXC8344PnANqAbLUxAW01g=w1081-h1441-s-no-gm",
+pic_url: "https://lh3.googleusercontent.com/pw/AP1GczNEioQvy_RN3k-xTf8ue4IlZkm8OKblTbpllQz24-yhOhAETVnxXEjIDGrayDOHk6l-5I4xCJ9pUi2uz1nFL9eg6xHefd-2gfsWTsHbYEawAmsi4TGrCnwziiqqPk2PBUMWrXC8344PnANqAbLUxAW01g=w1081-h1441-s-no-gm"
 umap_url: "https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Andy%20Duckhole#6/51.768/15.831"
 from: "@altnaharra"
 status: "Trade"

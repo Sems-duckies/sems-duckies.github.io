@@ -12,6 +12,8 @@ number: 3
 # Duck {{ page.meta.number }}: {{ page.meta.title }}
 
 <img src="{{ page.meta.pic_url }}" alt="{{ page.meta.title }}" width="600">
+
+
 **Place:** {{ page.meta.city }}
 
 **Status:** {{ page.meta.status }}

@@ -7,7 +7,7 @@ status: "Mule/bought"
 description: "A small blue pirate duck, proudly sailing from the Muzeum Mydła i Historii Brudu in Bydgoszcz.With its tiny tricorn hat, eyepatch, and swashbuckling charm, this fearless bathmate is ready to plunder soap bars and command the seven sinks."
 city: "Bydgoszcz, Poland"
 date: 2025-10-16
-number: 3
+number: 4
 ---
 # Duck {{ page.meta.number }}: {{ page.meta.title }}
 

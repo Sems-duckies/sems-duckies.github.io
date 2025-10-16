@@ -4,7 +4,7 @@ pic_url: "https://lh3.googleusercontent.com/pw/AP1GczNEioQvy_RN3k-xTf8ue4IlZkm8O
 umap_url: "https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Andy%20Duckhole#6/51.768/15.831"
 from: "@altnaharra"
 status: "Trade"
-description": "Say hello to Andy Duckhol – the flamboyant feathered icon of the Pop Art world.Bold, bright, and ready for the spotlight, this duck channels the spirit of Andy Warhol with vibrant colors and unmistakable attitude.Whether in the bath or on the shelf, Andy Duckhol proves that every duck deserves their 15 minutes of fame."
+description: "Say hello to Andy Duckhol – the flamboyant feathered icon of the Pop Art world.Bold, bright, and ready for the spotlight, this duck channels the spirit of Andy Warhol with vibrant colors and unmistakable attitude.Whether in the bath or on the shelf, Andy Duckhol proves that every duck deserves their 15 minutes of fame."
 city: "Bratislava Airport"
 date: 2025-10-14
 number: 3

@@ -5,8 +5,6 @@ date: 2025-10-10
 
 # Home
 
-Currently, **{{ files_count }}** ducks from Sem's world have made their way onto the internet.
-
 * [Ducks List](ducks/index)
 * [Biocards](biocards/index)
 

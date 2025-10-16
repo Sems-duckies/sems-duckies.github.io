@@ -70,6 +70,7 @@ plugins:
   - macros
 
 extra:
+  files_count: !python "len([f for f in os.listdir('doc/ducks') if f.endswith('.md')]) - 1"
   social:
     - icon: fontawesome/brands/telegram
       link: https://t.me/semsduckies

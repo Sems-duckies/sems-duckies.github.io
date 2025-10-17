@@ -1,5 +1,5 @@
 ---
-title: "Misstress Quack"
+title: "Mistress Quack"
 pic_url: "https://lh3.googleusercontent.com/pw/AP1GczMSxMg8dKcTJwldcZBidwtA59UVffV1BaphqOrnAEZXz175Sd5WDjWEyi4Fn2_lWfpmEJVpObeXGUmw1fGIq12UDUdD51PrMMe1IQ5RNaLbBKNyU31pKCbHETPTTYNSrFsy-KtSs1q6az2C1UV_nUGUxg=w1081-h1441-s-no-gm"
 umap_url: "https://umap.openstreetmap.de/de/map/sems-ducks_107680?feature=Mistress%20Quack#16/50.0631/19.9367"
 from: "@Prinzessin33"

@@ -31,7 +31,7 @@ date: 2025-10-14
 ## L
 
 ## M
-* [Misstress Quack](misstress-quack)
+* [Mistress Quack](mistress-quack)
 
 ## N
 

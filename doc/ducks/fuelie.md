@@ -9,18 +9,18 @@ city: "Freiburg, Germany"
 date: ""
 number: "9"
 ---
-# Duck { { page.meta.number } }: { { page.meta.title } }
+# Duck {{ page.meta.number }}: {{ page.meta.title }}
 
-<img src="{ { page.meta.pic_url } }" alt="{ { page.meta.title } }" width="600">
+<img src="{{ page.meta.pic_url }}" alt="{{ page.meta.title }}" width="600">
 
-**Place:** { { page.meta.city } }
+**Place:** {{ page.meta.city }}
 
-**Status:** { { page.meta.status } }
+**Status:** {{ page.meta.status }}
 
-**From:** { { page.meta.from } }
+**From:** {{ page.meta.from }}
 
 ## Description
 
-{ { page.meta.description } }
+{{ page.meta.description }}
 
-**umap:** [Link]({ { page.meta.umap_url } })
+**umap:** [Link]({{ page.meta.umap_url }})

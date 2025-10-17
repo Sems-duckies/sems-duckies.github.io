@@ -41,6 +41,7 @@ docs_dir: doc
 nav:
   - Home: index.md
   - Ducks: ducks/index.md
+  - Biocards: biocards/index.md
   - About: about.md
 
 markdown_extensions:

@@ -11,6 +11,7 @@ date: 2025-10-14
 ## B
   
 ## C
+  * [Captain Quackbeard](captain-quackbeard)
   * [Chewduckka](chewduckka)
 ## D
 

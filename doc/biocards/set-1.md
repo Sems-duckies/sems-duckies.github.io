@@ -13,7 +13,7 @@ date: 2025-10-10
   </tr>
     <tr>
     <td><a href="https://sems-duckies.github.io/ducks/captain-quackbeard/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Captain-Quackbeard_front.png" width="150" alt="Captain Quackbeard"></a></td>
-    <td></td></td>
-    <td></td>
+    <td><a href="https://sems-duckies.github.io/ducks/ducktor-plague/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Ducktor-Plague_front.png" width="150" alt="Ducktor Plague"></a></td>
+    <td><a href="https://sems-duckies.github.io/ducks/quack-w/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Quackow_front.png" width="150" alt="Quackow"></a></td>
   </tr>
 </table>

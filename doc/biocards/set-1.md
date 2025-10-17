@@ -16,4 +16,10 @@ date: 2025-10-10
     <td><a href="https://sems-duckies.github.io/ducks/ducktor-plague/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Ducktor-Plague_front.png" width="150" alt="Ducktor Plague"></a></td>
     <td><a href="https://sems-duckies.github.io/ducks/quack-w/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Quackow_front.png" width="150" alt="Quackow"></a></td>
   </tr>
+    </tr>
+    <tr>
+    <td><a href="https://sems-duckies.github.io/ducks/devilquacker/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Devilquacker_front.png" width="150" alt="Devilquacker"></a></td>
+    <td><a href="https://sems-duckies.github.io/ducks/dutch-voyager/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Dutch-Voyager_front.png" width="150" alt="Dutch Voyager"></a></td>
+    <td><a href="https://sems-duckies.github.io/ducks/fuelie/"><img src="https://www.ingress-swag.com/wp-content/uploads/2025/09/Fuelie_front.png" width="150" alt="Fuelie"></a></td>
+  </tr>
 </table>

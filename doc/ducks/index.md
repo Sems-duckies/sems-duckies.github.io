@@ -14,10 +14,14 @@ date: 2025-10-14
   * [Captain Quackbeard](captain-quackbeard)
   * [Chewduckka](chewduckka)
 ## D
+  * [Devilquacker](devilquacker)
+  * [Ducktor Plague](ducktor-plague)
+  * [Dutch Voyager](dutch-voyager)
 
 ## E
 
 ## F
+  * [Fuelie](fuelie)
 
 ## G
 
@@ -32,7 +36,7 @@ date: 2025-10-14
 ## L
 
 ## M
-* [Mistress Quack](mistress-quack)
+  * [Mistress Quack](mistress-quack)
 
 ## N
 
@@ -41,6 +45,7 @@ date: 2025-10-14
 ## P
 
 ## Q
+  * [Quacków](quack-w)
 
 ## S
 

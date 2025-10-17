@@ -2,22 +2,10 @@
 """
 Create missing duck Markdown files from map.geojson.
 
-- Reads: map.geojson (in the same directory as this script by default, override with --geojson)
-- Writes: ducks/<slug>.md for features that don't already exist
-- The file name slug is derived from properties["name"] (lowercase, non-alnum -> "-")
-- Frontmatter mirrors chewduckka.md keys when available:
-    title, pic_url, umap_url, from, status, description, city, date, number
-- Field mapping from GeoJSON properties (fallbacks):
-    title     <- name
-    pic_url   <- pic_url | picture | image | photo | url (if it's an image) 
-    umap_url  <- umap_url (left empty if not present; if geometry exists, an OSM link is added)
-    from      <- from | author | by
-    status    <- status
-    description <- description | desc
-    city      <- city | place | location
-    date      <- date
-    number    <- number (if not present, autoincrement after the current max found in existing ducks)
-    
+Changes:
+- Render literal Jinja tags like {{ page.meta.title }} exactly in the MD body.
+- Quote ALL frontmatter values with double quotes, including numbers/booleans.
+
 Usage:
     python make_duck_md_from_geojson.py --geojson path/to/map.geojson --out ducks
 """
@@ -26,7 +14,7 @@ import argparse
 import json
 import re
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any
 
 try:
     import yaml  # type: ignore
@@ -52,21 +40,23 @@ def load_existing_numbers(ducks_dir: Path) -> int:
             with md.open("r", encoding="utf-8") as f:
                 content = f.read()
             if content.startswith("---"):
-                _, fm, _ = content.split("---", 2)
-                data = yaml.safe_load(fm) or {}
-                num = data.get("number")
-                if isinstance(num, int):
-                    max_num = max(max_num, num)
-                elif isinstance(num, str) and num.isdigit():
-                    max_num = max(max_num, int(num))
+                parts = content.split("---", 2)
+                if len(parts) >= 3:
+                    _, fm, _ = parts
+                    import yaml as _yaml
+                    data = _yaml.safe_load(fm) or {}
+                    num = data.get("number")
+                    if isinstance(num, int):
+                        max_num = max(max_num, num)
+                    elif isinstance(num, str) and num.isdigit():
+                        max_num = max(max_num, int(num))
         except Exception:
             continue
     return max_num
 
 def build_umap_or_osm_url(props: Dict[str, Any], geom: Dict[str, Any]) -> str:
-    if "umap_url" in props and isinstance(props["umap_url"], str):
+    if isinstance(props.get("umap_url"), str):
         return props["umap_url"]
-    # fallback: build an OpenStreetMap link if we have geometry
     try:
         if geom and geom.get("type") == "Point":
             lon, lat = geom.get("coordinates", [None, None])
@@ -81,14 +71,13 @@ def pick_pic_url(props: Dict[str, Any]) -> str:
         v = props.get(key)
         if isinstance(v, str) and v:
             return v
-    # sometimes "url" might be an image; check extension
     v = props.get("url")
     if isinstance(v, str) and is_image_url(v):
         return v
     return ""
 
 def map_properties_to_frontmatter(props: Dict[str, Any], geom: Dict[str, Any], next_number: int) -> Dict[str, Any]:
-    data = {}
+    data: Dict[str, Any] = {}
     name = props.get("name") or ""
     data["title"] = name
 
@@ -97,48 +86,76 @@ def map_properties_to_frontmatter(props: Dict[str, Any], geom: Dict[str, Any], n
 
     data["from"] = props.get("from") or props.get("author") or props.get("by") or ""
     data["status"] = props.get("status") or ""
-
     data["description"] = props.get("description") or props.get("desc") or ""
-
     data["city"] = props.get("city") or props.get("place") or props.get("location") or ""
     data["date"] = props.get("date") or ""
 
     number = props.get("number")
     if isinstance(number, int):
-        data["number"] = number
-    elif isinstance(number, str) and number.isdigit():
-        data["number"] = int(number)
+        data["number"] = str(number)
+    elif isinstance(number, str) and number.strip():
+        data["number"] = number.strip()
     else:
-        data["number"] = next_number
+        data["number"] = str(next_number)
 
-    return data
+    ordered = {k: data.get(k, "") for k in FRONTMATTER_KEYS}
+    return ordered
+
+class QuotedStr(str):
+    """Marker class so PyYAML always double-quotes our strings."""
+
+def _quoted_str_representer(dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:str', str(data), style='"')
+
+yaml.add_representer(QuotedStr, _quoted_str_representer)
+# Ensure SafeDumper knows how to handle QuotedStr
+try:
+    from yaml import SafeDumper
+    SafeDumper.add_representer(QuotedStr, _quoted_str_representer)
+except Exception:
+    pass
+
+def quote_all_values(d: Dict[str, Any]) -> Dict[str, QuotedStr]:
+    q: Dict[str, QuotedStr] = {}
+    for k, v in d.items():
+        if v is None:
+            v = ""
+        q[k] = QuotedStr(str(v))
+    return q
+
+def yaml_dump_quoted(d: Dict[str, Any]) -> str:
+    quoted = quote_all_values(d)
+    return yaml.safe_dump(quoted, sort_keys=False, allow_unicode=True).strip()
 
 def render_markdown(frontmatter: Dict[str, Any]) -> str:
-    # Keep the same structure as chewduckka.md (including the Jinja vars in the body)
-    # Ensure numbers are plain int in YAML
-    fm_dump = yaml.safe_dump(frontmatter, sort_keys=False, allow_unicode=True).strip()
-    body = f"""---
-{fm_dump}
----
-# Duck {{ {{ page.meta.number }} }}: {{ {{ page.meta.title }} }}
-
-<img src="{{ {{ page.meta.pic_url }} }}" alt="{{ {{ page.meta.title }} }}" width="600">
-
-**Place:** {{ {{ page.meta.city }} }}
-
-**Status:** {{ {{ page.meta.status }} }}
-
-**From:** {{ {{ page.meta.from }} }}
-
-## Description
-
-{{ {{ page.meta.description }} }}
-
-**umap:** [Link]({{ {{ page.meta.umap_url }} }})
-""".rstrip() + "\n"
-    return body
+    fm_dump = yaml_dump_quoted(frontmatter)
+    parts = []
+    parts.append("---")
+    parts.append(fm_dump)
+    parts.append("---")
+    parts.append("# Duck {{ page.meta.number }}: {{ page.meta.title }}")
+    parts.append("")
+    parts.append("<img src=\"{{ page.meta.pic_url }}\" alt=\"{{ page.meta.title }}\" width=\"600\">")
+    parts.append("")
+    parts.append("**Place:** {{ page.meta.city }}")
+    parts.append("")
+    parts.append("**Status:** {{ page.meta.status }}")
+    parts.append("")
+    parts.append("**From:** {{ page.meta.from }}")
+    parts.append("")
+    parts.append("## Description")
+    parts.append("")
+    parts.append("{{ page.meta.description }}")
+    parts.append("")
+    parts.append("**umap:** [Link]({{ page.meta.umap_url }})")
+    parts.append("")
+    return "\n".join(parts)
 
 def main():
+    import argparse
+    import json
+    from pathlib import Path
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--geojson", type=Path, default=Path("map.geojson"))
     ap.add_argument("--out", type=Path, default=Path("ducks"))
@@ -156,7 +173,6 @@ def main():
     existing_max = load_existing_numbers(args.out)
     created = []
     skipped = []
-
     next_number = existing_max + 1
 
     for feat in geo.get("features", []):
@@ -165,7 +181,6 @@ def main():
 
         name = props.get("name")
         if not isinstance(name, str) or not name.strip():
-            # skip features without a proper name
             continue
 
         slug = slugify(name)
@@ -176,8 +191,7 @@ def main():
             continue
 
         fm = map_properties_to_frontmatter(props, geom, next_number)
-        # Only increment next_number if we assigned one (i.e., original had none)
-        if fm.get("number") == next_number:
+        if fm.get("number") == str(next_number):
             next_number += 1
 
         content = render_markdown(fm)
@@ -196,6 +210,7 @@ def main():
         print(f"Skipped (already exist): {len(skipped)}")
         for s in skipped:
             print(" -", s)
+
 
 if __name__ == "__main__":
     main()

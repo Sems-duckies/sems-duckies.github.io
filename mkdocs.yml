@@ -40,7 +40,9 @@ docs_dir: doc
 
 nav:
   - Home: index.md
-  - Ducks: ducks/index.md
+  - Ducks:
+      - Übersicht: ducks/index.md
+      - Galerie: ducks/gallery.md
   - Biocards: biocards/index.md
   - About: about.md
 

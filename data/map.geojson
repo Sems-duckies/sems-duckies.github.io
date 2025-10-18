@@ -19,7 +19,8 @@
                "description": "A uniquely crafted rubber duck inspired by the legendary Wookiee warrior Chewbacca.With shaggy fur, a bandolier across its chest, and a fierce yet lovable expression, this duck brings a touch of the galaxy far, far away to any collection.",
                "from": "@r3f1Zul",
                "status": "Gift",
-               "place": "Krakow, Poland"
+               "place": "Krakow, Poland",
+               "set": "1"
            },
            "id": "1"
        },
@@ -41,7 +42,8 @@
                "description": "Meet Mistress Quack – a dominantly delightful rubber duck who knows exactly who's in charge.Clad in faux leather, with a tiny ballgag beak and a confident stare, she brings a cheeky touch of BDSM flair to any collection. Whether in the tub or on display, she commands attention… and obedience.",
                "from": "@Prinzessin33",
                "status": "Gift",
-               "place": "Krakow, Poland"
+               "place": "Krakow, Poland",
+               "set": "1"
            },
            "id": "2"
        },
@@ -63,7 +65,8 @@
                "description": "Say hello to Andy Duckhol – the flamboyant feathered icon of the Pop Art world.Bold, bright, and ready for the spotlight, this duck channels the spirit of Andy Warhol with vibrant colors and unmistakable attitude.Whether in the bath or on the shelf, Andy Duckhol proves that every duck deserves their 15 minutes of fame.",
                "from": "@altnaharra",
                "status": "Trade",
-               "place": "Bratislava Airport"
+               "place": "Bratislava Airport",
+               "set": "1"
            },
            "id": "3"
        },
@@ -85,7 +88,8 @@
                "description": "A small blue pirate duck, proudly sailing from the Muzeum Mydła i Historii Brudu in Bydgoszcz.With its tiny tricorn hat, eyepatch, and swashbuckling charm, this fearless bathmate is ready to plunder soap bars and command the seven sinks.",
                "from": "@Yeahfree",
                "status": "Mule/bought",
-               "place": "Bydgoszcz, Poland"
+               "place": "Bydgoszcz, Poland",
+               "set": "1"
            },
            "id": "4"
        },
@@ -107,7 +111,8 @@
                "description": "Meet Ducktor Plague – the beaked guardian of bath-time gloom. Dressed in a classic black plague doctor cloak with wide-brimmed hat and haunting mask, this eerie little duck brings medieval mystery to your rubber duck collection. A true relic of dark elegance… with a squeak.",
                "from": "@Yeahfree",
                "status": "Mule/bought",
-               "place": "Edinburgh, UK"
+               "place": "Edinburgh, UK",
+               "set": "1"
            },
            "id": "5"
        },
@@ -129,7 +134,8 @@
                "description": "Say hello to Quacków – a proud little duck straight from Poland, wearing the name Kraków across its chest and a delicious pierogi as its badge of honor. This charming souvenir celebrates the heart of Polish cuisine and culture, one dumpling at a time. A true Kraków classic… with a squeak.",
                "from": "@Prinzessin33 @r3f1Zul",
                "status": "Gift",
-               "place": "Krakow, Poland"
+               "place": "Krakow, Poland",
+               "set": "1"
            },
            "id": "6"
        },
@@ -151,7 +157,8 @@
                "description": "This is Devilquacker – the fiery little devil of the labor front.With blazing red feathers, bold black horns, and the proud ver.di logo on its chest, this fearless duck stands for workers’ rights with every squeak. Originally a promotional mascot, its exact place of origin remains a mystery… but its rebellious spirit is unmistakable.",
                "from": "@nightdir",
                "status": "Gift",
-               "place": "Frankfurt, Germany"
+               "place": "Frankfurt, Germany",
+               "set": "1"
            },
            "id": "7"
        },
@@ -173,7 +180,8 @@
                "description": "Meet Dutch Voyager – a globe-trotting duck with Dutch roots and a Slovakian stamp in its passport. Sporting the colors of adventure and a proud “U” on its chest, this waddling wanderer was picked up at Bratislava Airport and is ready to explore the world – one squeak at a time.",
                "from": "@altnaharra",
                "status": "Trade",
-               "place": "Innsbruck, Austria"
+               "place": "Innsbruck, Austria",
+               "set": "1"
            },
            "id": "8"
        },
@@ -195,9 +203,217 @@
                "description": "Say hello to Fuelie – the bright blue duck born to pump up your bath-time energy. With its signature ARAL branding and vibrant orange beak, this promotional duck made its way from Freiburg to your collection, leaving a trail of bubbles and high-octane charm.",
                "from": " @derFreiburger",
                "status": "Trade",
-               "place": "Freiburg, Germany"
+               "place": "Freiburg, Germany",
+               "set": "1"
            },
            "id": "9"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.0823,
+                52.027
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Girl with the Quack Pearl",
+               "number": "10",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczOu1PrFhUDapYH9DMCwz_5dyseL8un7YmaDwQOCdrARSz0nlOMe-8_CjPRiLoaFSXDJpRrPgtYVHDtv6Gm0uf0xHcIOtPc69tlvFHjBoQDabpVVjN67mU1g7RE4wVy0hJeW8GgEW6XsPXyi51EchBx74w",
+               "url": "https://photos.app.goo.gl/h7nG4JPvgbQYzj5JA",
+               "swag": "-",
+               "description": "A mysterious muse from the art pond. She never blinks during portrait sessions and demands natural light only. Every frog who sees her gasps, Is that real beauty or just oil paint? She simply smirks and whispers, Quack.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Nieuwegein, Netherland",
+               "set": "2"
+           },
+           "id": "10"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11555,
+                52.0888
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Dr. Quackdent",
+               "number": "11",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczNnxFcDj-5NWI8WL0qgyagNOGhZKTnCAKFJwk9TiZkbtL-0QEQs0HhODymVaaS37omTISTKj5l0ti5ZyNECWZZF3OppOjOF_MJ6jI-l5_JYa_EubSPM8dzGkzbvAgt5A8LWF4MY4LUdwdVXRfFFEpRtBA",
+               "url": "https://photos.app.goo.gl/kzZEEZbWX1PKwCAr6",
+               "swag": "-",
+               "description": "The world’s only licensed dental duck — specializes in beak cleaning and pond polishing. Known to say: Floss or be lost! His patients leave smiling, though slightly confused how they got there.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "11"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.0823,
+                52.028
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Berry Quackerson",
+               "number": "12",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczMCyGUCEcQmF5XJ920_j_KKuuEwun-V3033eeLj8ZyQxu2LHYU22K4RxiwZRxd-6bT3tAJqHiyuvIYd1zat2VE_y2Z_B3CAkznRixS_uIHxm2rSFXbCgxhFcEK1U3z8Nl4ldNRgsvrNFzuvS1eKaqK_aQ",
+               "url": "https://photos.app.goo.gl/eg3rFNVbn755KQqb7",
+               "swag": "-",
+               "description": "A sweet, slightly squishy strawberry-duck hybrid. Always sticky from jam experiments and believes he is 80% vitamin Q. Favorite hobby: photobombing picnic baskets. Catchphrase: Spread the love — and a little jam!",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Nieuwegein, Netherland",
+               "set": "2"
+           },
+           "id": "12"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11556,
+                52.0889
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "I ♥ Quacktrecht",
+               "number": "13",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczMM6h2F4p3J5CPC9p_ou7d6KkC0QeTAc8Lgy79d4mro2N80josdesDVH-GCFR_qcPxszgdlxR1W5jDHWaMWomkBGzBfzvkaZVlqlbkhagwV9Dhq-MYHQOErWC_T6_JFhJpRZBdWh6T2kK5Lh_yy0udXbw",
+               "url": "https://photos.app.goo.gl/Ag7o1b79zFTaUfaw5",
+               "swag": "-",
+               "description": "Local legend of Utrecht’s canals. Rides bikes, drinks pond-latte, and wears orange on King’s Day. Known for her catchphrase: If you ain’t Dutch, you ain’t quackin’ enough. Always first in line for a stroopwafel.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "13"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11554,
+                52.0889
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Tulip Quackerina",
+               "number": "14",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczPCC8irHQsT6ip1527Y2IBUuVgfaQciVwJRwrzRmjf__tPn-K63y9xZvH2BA6PCnugUinYUYcnqx-ES-X5ANfx0LiLEqhrCgWQAY68LHsvyOh7L5uaHVHJc-wkUaWPd85Lt9L2mqcx9Q_JK00WOUCUGgw",
+               "url": "https://photos.app.goo.gl/Lp5wtbkT8fvZEjos5",
+               "swag": "-",
+               "description": "Elegant, romantic, and always smelling faintly of tulips. She spends her mornings posing in windmills and her evenings judging cheese wheels. Speaks fluent Quackish with a Dutch accent and refuses to swim unless the water reflects her best side.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "14"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11556,
+                52.0887
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Bronzequacker",
+               "number": "15",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczPyydRf5fkp6WpS-EwaiFkLbRmo37HMFiYvBQoZl7VAVw37P5j5Kc5BCsbyMQDnzoGTRk_oAXCpnP8RHCLYdj-LPZLrn22319hpvvemqR6i0a1oaCuT796E4PQCpIlhR8yChWJLZ83BmnhJ_ZtwfOdhiQ",
+               "url": "https://photos.app.goo.gl/D4UBQnAnsonkrWxz8",
+               "swag": "-",
+               "description": "Shiny, confident, and slightly metallic in personality. Thinks every puddle is a photo opportunity. When the sun hits her just right, she blinds seagulls. Motto: I don’t sweat — I shimmer.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "15"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11557,
+                52.0885
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Mary Quackleaf",
+               "number": "16",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczM_B0JvXzW0Bqx7eExl7ciweMXWefc3CXyrYdRTTVulb5k4PISm14kUjpiG2fczbI0_tdcqK5Vtgju-4MmOPHTJFIVP4XJjAQUgosrfj85jhgDtoGf6rn7KB2EB9L7ol1QsPbhmXOQQ6Pbtte2xx_8D4w",
+               "url": "https://photos.app.goo.gl/xwVn86eHZVL41kQe8",
+               "swag": "-",
+               "description": "Laid-back, mellow, and totally zen. Always floating a little slower than everyone else. Favorite hobbies: cloud-watching, reed-swaying, and forgetting what day it is. Motto: Peace, love, and quacks.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "16"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11559,
+                52.0884
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "MooQuack von Cowsterdam",
+               "number": "17",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczOQd7H6293Wu-lD1YJcKTWePjL2TmfhC1QwqEu6KpeIW7A0SqnosYyClheeP3wQ5J2YepObScGGUjXgOqiyEy1uYyf8rIisIzARh9nLojWnrp6NPUtLmjejeXjNWLZyFHpB_OW8qn5crULX7MR6ScoRGg",
+               "url": "https://photos.app.goo.gl/dkAiYEMrYCa7HMQF8",
+               "swag": "-",
+               "description": "Half duck, half cow, fully confused. Thinks she can produce milk, but only manages bubbles. Loves grazing on pondweed and moo-quacking at sunrise. Her dream? To open the world’s first floating dairy farm.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "17"
+       },
+       {
+           "type": "Feature",
+           "geometry": {
+               "coordinates": [
+                5.11553,
+                52.0890
+               ],
+               "type": "Point"
+           },
+           "properties": {
+               "name": "Quackarazzi",
+               "number": "18",
+               "picture": "https://lh3.googleusercontent.com/pw/AP1GczPBAAbkAKsudQKZE9hGNzNxz255G4mgISNCF51Q9dPLLA0LK4mZjAXrXk-fp2KIXiRg7FR2W4CIpFavNd9QyOhdgV3lRYDXZJBMabYTZpOOhsuXg8-yLOG9m_addELsNQDdyJ5STA02a72hHF3WWLZwtA",
+               "url": "https://photos.app.goo.gl/7pLx3topLEDdUXMn9",
+               "swag": "-",
+               "description": "No duck escapes his lens. Always quacking Say quack-cheese! and diving for the best angle. Has three cameras, zero boundaries, and way too many followers on Pondstagram.",
+               "from": "@YeIIowFirestar",
+               "status": "Gift",
+               "place": "Utrecht, Netherland",
+               "set": "2"
+           },
+           "id": "18"
        }
    ]
 }

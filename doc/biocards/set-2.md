@@ -1,6 +1,6 @@
 ---
-title: Biocard Set 1
-date: 2025-10-10
+title: Biocard Set 2
+date: 2025-10-18
 ---
 
 # Biocard Set 2
